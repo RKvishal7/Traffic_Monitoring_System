@@ -2,7 +2,7 @@
 import cv2 as cv
 from  ultralytics import YOLO
 model = YOLO("yolov8n.pt")
-vid = cv.VideoCapture("traffic.mp4")
+vid = cv.VideoCapture("traffic.mp4") # add your own video path 
 line_y = 300
 count = 0
 tracked_ids = set()
